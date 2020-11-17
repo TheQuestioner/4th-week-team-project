@@ -1,6 +1,6 @@
 # Landing for a Cause
 ---
-# NGO - Magosfa Alapítvány Környezeti Nevelés é Ökoturisztikai Alapítvány
+# NGO - Magosfa Környezeti Nevelés é Ökoturisztikai Alapítvány
 
 ## Bemutatás
 A Magosfa Alapítvány 2003-ban alakult, közhasznú tevékenységét Pest megye északi részén, azon belül a Börzsöny és a Dunakanyar és alsó Ipoly mente térségében fejti ki. Nevét a Börzsönyben található 916 méter magas Magosfa csúcsról kapta.
