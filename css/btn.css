@@ -1,0 +1,19 @@
+.button-nav {
+  display: inline-block;
+  margin:1px;
+  padding: 10px;
+  border: none;
+  color:whitesmoke;
+  background-color: green;
+  font-size:15px;
+  text-align:center;
+  cursor:pointer;
+  border-radius: 5px;
+}
+.button-nav:hover {
+  background-color:grey;
+}
+
+a:link {
+text-decoration: none;
+}
