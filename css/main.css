@@ -29,11 +29,13 @@ main {
   grid-row: 2 / span 1;
   grid-column: 1 / span 10;
   grid-template-columns: 4fr 6fr;
-  grid-template-rows: 75% 25%;
+  grid-template-rows: 80% 20%;
   border: 1px solid black;
 }
 
 .main-second .pic {
+  margin: auto auto 0;
+  padding-left: 80px;
   grid-row: 1 / span 1;
   grid-column: 1 / span 1;
   border: 1px solid black;
@@ -43,14 +45,64 @@ main {
   grid-row: 2 / span 1;
   grid-column: 1 / span 1;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-second .button .button-nav {
+  width: 400px;
+  height: 50px;
+  color: rgb(245, 245, 245);
+  background-color: green;
+  margin: 1px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-second .button .button-nav:hover {
+  background-color: grey;
+}
+
+.main-second .button .button-nav a:link {
+  text-decoration: none;
+}
+
+.main-second .button .button-nav a:visited {
+  color: rgb(245, 245, 245);
 }
 
 .main-second .text {
   grid-row: 1 / span 1;
   grid-column: 2 / span 1;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
 }
 
+.main-second .text .vision-text {
+  width: 80%;
+  height: 120%;
+  margin-top: 10%;
+  border: 1px solid black;
+}
+
+.main-second .text .vision-text h1 {
+  padding: 20px;
+  font-size: 36px;
+}
+
+.main-second .text .vision-text p {
+  padding: 0px 20px;
+  font-size: 20px;
+}
 
 /*harmadik képernyő*/
 .main-third {
@@ -58,19 +110,7 @@ main {
   grid-row: 3 / span 1;
   grid-column: 1 / span 10;
   grid-template-columns: 6fr 4fr;
-  grid-template-rows: 3fr 1fr;
-  border: 1px solid black;
-}
-
-.main-third .pic {
-  grid-row: 1 / span 1;
-  grid-column: 2 / span 1;
-  border: 1px solid black;
-}
-
-.main-third .button {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
+  grid-template-rows: 80% 20%;
   border: 1px solid black;
 }
 
@@ -78,8 +118,69 @@ main {
   grid-row: 1 / span 1;
   grid-column: 1 / span 1;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.main-third .text .program {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+.main-third .text .program h1 {
+  padding: 20px;
+  font-size: 36px;
+}
+
+.main-third .text .program p {
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.main-third .button {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-third .button .button-nav {
+  width: 400px;
+  height: 50px;
+  color: rgb(245, 245, 245);
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-second .button .button-nav:hover {
+  background-color: grey;
+}
+
+.main-second .button .button-nav a:link {
+  text-decoration: none;
+}
+
+.main-second .button .button-nav a:visited {
+  color: rgb(245, 245, 245);
+}
+
+.main-third .pic {
+  margin: auto auto 0;
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  border: 1px solid black;
+}
 
 /*negyedik képernyő*/
 .main-fourth {
