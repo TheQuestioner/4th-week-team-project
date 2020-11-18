@@ -22,7 +22,7 @@ body {
   top: 40%;
   left: 40%;
   transform: translate(-50%, -50%);
-  color: green;
+  color: #5e9558;
 }
 
 .hero-text button {
@@ -31,13 +31,13 @@ body {
   display: inline-block;
   margin: 50px;
   padding: 10px 25px;
-  color: black;
+  color: #5e9558;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
 }
 
 .hero-text button:hover {
-  background-color:green;
+  background-color:#2a693d;
   color: white;
 }
