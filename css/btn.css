@@ -1,8 +1,7 @@
 .button-nav {
   width: 400px;
   height: 50px;
-  color: rgb(245, 245, 245);
-  background-color: green;
+  background-color:#2a693d;
   padding: 10px;
   text-align: center;
   border: none;
@@ -13,8 +12,19 @@
   justify-content: center;
 }
 
+.button-nav a {
+  color:#eefbf1;
+  font-size: 30px;
+}
+
 .button-nav:hover {
-  background-color:grey;
+  background-color:#70b09c;
+}
+
+.button-nav a:hover {
+  font-size:33px;
+  color:#2a693d;
+  
 }
 
 .button-nav a:link {

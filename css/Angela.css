@@ -96,7 +96,10 @@ main {
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
+  background-color: #eefbf1;
 }
+
+
 
 
 /*hatodik képernyő*/
