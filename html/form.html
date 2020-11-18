@@ -7,10 +7,15 @@
 </head>
 <body>
   <form class="form"> 
-    <div>
+    <fieldset>
+      <legend>Adományozó fizetés</legend>
+          <label for="name">Név</label>
           <input type="text" name="name" placeholder="Név"><br>
-          <input type="text" name="address" placeholder="Cím"><br>
+          <label for="name">Cím</label>
+          <input type="text" name="address" placeholder="cím"><br>
+          <label for="name">E-mail</label>
           <input type="email" name="email" placeholder="e-mail cím"><br>
+          <p>Melyik programot támogatod?</p>
           <input type="checkbox" name="program1" value="program1">Csíkoshátú vadmalac tábor</br>
           <input type="checkbox" name="program2" value="program2">Ipolytisztítás</br>
           <input type="checkbox" name="program3" value="program3">Kicsik és Nagyik</br>
@@ -18,10 +23,11 @@
           <input type="checkbox" name="program5" value="program5">Pedagógus workshop</br>
           <input type="checkbox" name="program6" value="program6">Kiadványok</br>
           <input type="checkbox" name="program7" value="program7">Kismagos erdei iskola felújítása</br>
-          <input type="text" name="info" placeholder="Honnan hallottál rólunk?"><br>
-          <input type="checkbox" name="program5" value="program5">Adatkezelési tájékozttaót elolvastam és elfogadom</br>
+          <label for="text">Hol hallottál rólunk?</label>
+          <input type="text" name="info" placeholder=""><br>
+          <input type="checkbox" name="program5" value="program5">Adatkezelési tájékoztatót elolvastam és elfogadom</br>
           <button type="submit" form="form" value="submit">Tovább az online fizetési felületre</button>
-    </div>
+        </fieldset>
   </form>
 </body>
 </html>

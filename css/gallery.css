@@ -1,0 +1,27 @@
+
+
+div.gallery-container{
+  width: 33,3 vw;
+  height: 33,3 vh;
+  box-sizing: border-box;
+}
+
+div.gallery {
+
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  border: 1px solid #ccc;
+  object-fit: contain;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
