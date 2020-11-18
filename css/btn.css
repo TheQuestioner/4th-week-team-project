@@ -1,19 +1,26 @@
 .button-nav {
-  display: inline-block;
-  margin:1px;
-  padding: 10px;
-  border: none;
-  color:whitesmoke;
+  width: 400px;
+  height: 50px;
+  color: rgb(245, 245, 245);
   background-color: green;
-  font-size:15px;
-  text-align:center;
-  cursor:pointer;
+  padding: 10px;
+  text-align: center;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .button-nav:hover {
   background-color:grey;
 }
 
-a:link {
-text-decoration: none;
+.button-nav a:link {
+  text-decoration: none;
+}
+
+.button-nav a:visited {
+  color: rgb(245, 245, 245);
 }
