@@ -4,9 +4,11 @@ body {
 }
 
 .hero-image {
-  background: url("magosfa.png") no-repeat center; 
-  background-size: contain; /*cover-torzít*/
+  background-image: url("image\Angela\hegy-festmeny.jpg"); 
+  background-size: cover; /*content?*/
   height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -21,4 +23,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.hero-text button {
+  
 }
