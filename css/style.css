@@ -1,4 +1,6 @@
 @import url("../css/headline.css");
+@import url("../css/footer.css");
+
 
 * {
   margin: 0;
@@ -57,7 +59,6 @@ main {
   color: rgb(245, 245, 245);
   background-color:#2a693d;
   padding: 10px;
-  font-size: 15px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -68,17 +69,17 @@ main {
 }
 
 .button-second .button-nav a {
-  color:#eefbf1;
+  color: #eefbf1;
   font-size: 25px;
 }
 
 .main-second .button .button-nav:hover {
-  background-color:#70b09c;
+  background-color: #70b09c;
 }
 
 .main-second .button-nav a:hover {
-  font-size:33px;
-  color:#2a693d;  
+  font-size: 33px;
+  color: #2a693d;  
 }
 
 .main-second .button .button-nav a:link {
@@ -168,7 +169,6 @@ main {
   color: rgb(245, 245, 245);
   background-color:#2a693d;
   padding: 10px;
-  font-size: 15px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -179,17 +179,17 @@ main {
 }
 
 .button-third .button-nav a {
-  color:#eefbf1;
+  color: #eefbf1;
   font-size: 25px;
 }
 
 .main-third .button .button-nav:hover {
-  background-color:#70b09c;
+  background-color: #70b09c;
 }
 
 .main-third .button-nav a:hover {
-  font-size:33px;
-  color:#2a693d;  
+  font-size: 33px;
+  color: #2a693d;  
 }
 
 .main-third .button .button-nav a:link {
@@ -255,7 +255,6 @@ main {
   background-color:#2a693d;
   margin-top: 70px;
   padding: 10px;
-  font-size: 15px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -266,17 +265,17 @@ main {
 }
 
 .main-fourth .button-nav a {
-  color:#eefbf1;
+  color: #eefbf1;
   font-size: 25px;
 }
 
 .main-fourth .button .button-nav:hover {
-  background-color:#70b09c;
+  background-color: #70b09c;
 }
 
 .main-fourth .button-nav a:hover {
-  font-size:33px;
-  color:#2a693d;  
+  font-size: 33px;
+  color :#2a693d;  
 }
 
 .main-fourth .button .button-nav a:link {
@@ -301,4 +300,5 @@ main {
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
+  position: relative;
 }
