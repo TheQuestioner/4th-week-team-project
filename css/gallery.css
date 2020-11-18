@@ -1,19 +1,23 @@
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
-div.gallery-container{
+div.gallery {
   width: 33,3 vw;
   height: 33,3 vh;
   box-sizing: border-box;
 }
 
-div.gallery {
+div.gallery img {
 
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: auto;
   margin: 5px;
   border: 1px solid #ccc;
   object-fit: contain;
-}
+ }
 
 
 div.gallery:hover {
