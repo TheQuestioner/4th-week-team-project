@@ -19,6 +19,7 @@
   left: 50%;
   transform: translate (-50%, -50%);
   color: #2a693d;
+  font-size: 50px;
 }
 
 .hero-image .button-nav {
