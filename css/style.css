@@ -104,7 +104,7 @@ main {
 .main-second .text .vision-text {
   width: 74%;
   height: 100%;
-	background-color: rgba(238, 251, 241, 0.5);
+	background-color: rgba(247, 247, 247, 0.5);
   text-align: justify;
   border: 1px solid #70b09c;
   box-sizing: border-box;
@@ -132,6 +132,13 @@ main {
 
 /*harmadik képernyő*/
 .main-third {
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(239,246,249,1) 49%, rgba(242,253,255,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,246,249,1) 49%,rgba(242,253,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(239,246,249,1) 49%,rgba(242,253,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2fdff',GradientType=0 );
+  
+
   display: grid;
   grid-row: 3 / span 1;
   grid-column: 1 / span 10;
@@ -149,7 +156,7 @@ main {
 .main-third .text .program {
   width: 74%;
   height: 100%;
-  background-color: rgba(238, 251, 241, 0.5);
+	background-color: rgba(247, 247, 247, 0.5);
   text-align: justify;
   border: 1px solid #70b09c;
   box-sizing: border-box;
@@ -225,6 +232,7 @@ main {
 
 /*negyedik képernyő*/
 .main-fourth {
+  background-color: #f1fcfeff;
   display: grid;
   grid-row: 4 / span 1;
   grid-column: 1 / span 10;
@@ -257,6 +265,7 @@ main {
 }
 
 .main-fourth .left .text {
+  background-color: rgba(247, 247, 247, 0.5);
   margin-top: 40px;
   font-size: 14.5px;
 }
@@ -273,6 +282,7 @@ main {
 }
 
 .main-fourth .middle .text {
+  background-color: rgba(247, 247, 247, 0.5);
   margin-top: 40px;
   font-size: 14.5px;
 }
@@ -293,6 +303,7 @@ main {
 }
 
 .main-fourth .right .text {
+  background-color: rgba(247, 247, 247, 0.5);
   margin-top: 40px;
   font-size: 14.5px;
 }
@@ -346,6 +357,13 @@ main {
 
 /*ötödik képernyő*/
 .main-fifth {
+  background: rgb(242,253,255);
+  background: -moz-linear-gradient(top,  rgba(242,253,255,1) 0%, rgba(239,246,249,1) 51%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(242,253,255,1) 0%,rgba(239,246,249,1) 51%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(242,253,255,1) 0%,rgba(239,246,249,1) 51%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2fdff', endColorstr='#ffffff',GradientType=0 );
+
+  
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
 }
