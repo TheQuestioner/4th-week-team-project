@@ -27,7 +27,7 @@
 }
 
 .hero-image .button-nav {
-  width: 280px;
+  width: 260px;
   height: 40px;
   background-color:#2a693d;
   padding: 10px;
@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 8%;
+  bottom: 7.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(238, 251, 241);
@@ -47,13 +47,11 @@
 }
 
 .hero-image .button-nav:hover {
-  background-color:#70b09c;
+  background-color: #45a049;
 }
 
 .hero-image .button-nav a:hover {
-  font-size:33px;
-  color:#2a693d;
-  
+  color:#2a693d;  
 }
 
 .hero-image .button-nav a:link {

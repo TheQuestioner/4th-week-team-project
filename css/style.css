@@ -80,7 +80,7 @@ main {
 }
 
 .main-second .button .button-nav:hover {
-  background-color: #70b09c;
+  background-color: #45a049;
 }
 
 .main-second .button-nav a:hover {
@@ -128,8 +128,10 @@ main {
   justify-content: center;
 }
 
+
 /*harmadik képernyő*/
 .main-third {
+  height: 100vh;
   display: grid;
   grid-row: 3 / span 1;
   grid-column: 1 / span 10;
@@ -147,8 +149,10 @@ main {
 .main-third .text .program {
   width: 74%;
   height: 100%;
+  background-color: rgba(238, 251, 241, 0.5);
   text-align: justify;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .main-third .text .program h1 {
@@ -158,6 +162,7 @@ main {
 
 .main-third .text .program p {
   padding: 0 20px;
+  line-height: 1.6em;
   font-size: 20px;
 }
 
@@ -167,6 +172,13 @@ main {
   grid-column: 7 / span 3;
   display: flex;
   justify-content: center;
+}
+
+.main-third .pic img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+  object-position: 36%;
 }
 
 .main-third .button {
@@ -194,7 +206,7 @@ main {
 }
 
 .main-third .button .button-nav:hover {
-  background-color: #70b09c;
+  background-color: #45a049;
 }
 
 .main-third .button-nav a:hover {
@@ -209,12 +221,14 @@ main {
   color: rgb(245, 245, 245);
 }
 
+
 /*negyedik képernyő*/
 .main-fourth {
-  background-image: url("../image/pngwing.com.png"); 
+  height: 100vh;
+/*  background-image: url("../image/pngwing.com.png"); 
   background-size: 100vh;
   background-position: left bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   display: grid;
   grid-row: 4 / span 1;
   grid-column: 1 / span 10;
@@ -234,8 +248,31 @@ main {
   margin-right: 40px;
 }
 
+.main-fourth .left .pic {
+  display: flex;
+  justify-content: center;
+}
+
+.main-fourth .left .pic img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 0%;
+}
+
 .main-fourth .left .text {
   margin-top: 40px;
+}
+
+.main-fourth .middle .pic {
+  display: flex;
+  justify-content: center;
+}
+
+.main-fourth .middle .pic img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .main-fourth .middle .text {
@@ -244,6 +281,17 @@ main {
 
 .main-fourth .right {
   margin-left: 40px;
+}
+
+.main-fourth .right .pic {
+  display: flex;
+  justify-content: center;
+}
+
+.main-fourth .right .pic img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .main-fourth .right .text {
@@ -259,6 +307,7 @@ main {
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .main-fourth .button .button-nav {
@@ -279,7 +328,7 @@ main {
 }
 
 .main-fourth .button .button-nav:hover {
-  background-color: #70b09c;
+  background-color: #45a049;
 }
 
 .main-fourth .button-nav a:hover {
@@ -297,6 +346,7 @@ main {
 
 /*ötödik képernyő*/
 .main-fifth {
+  height: 100vh;
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
@@ -305,6 +355,7 @@ main {
 
 /*hatodik képernyő*/
 .main-sixth {
+  height: 100vh;
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
