@@ -54,11 +54,12 @@ main {
 }
 
 .main-second .button .button-nav {
-  width: 300px;
+  width: 280px;
   height: 40px;
   color: rgb(245, 245, 245);
   background-color:#2a693d;
   padding: 10px;
+  font-size: 25px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -68,17 +69,11 @@ main {
   justify-content: center;
 }
 
-.button-second .button-nav a {
-  color: #eefbf1;
-  font-size: 25px;
-}
-
 .main-second .button .button-nav:hover {
   background-color: #70b09c;
 }
 
 .main-second .button-nav a:hover {
-  font-size: 33px;
   color: #2a693d;  
 }
 
@@ -164,11 +159,12 @@ main {
 }
 
 .main-third .button .button-nav {
-  width: 300px;
+  width: 280px;
   height: 40px;
   color: rgb(245, 245, 245);
   background-color:#2a693d;
   padding: 10px;
+  font-size: 25px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -178,17 +174,11 @@ main {
   justify-content: center;
 }
 
-.button-third .button-nav a {
-  color: #eefbf1;
-  font-size: 25px;
-}
-
 .main-third .button .button-nav:hover {
   background-color: #70b09c;
 }
 
 .main-third .button-nav a:hover {
-  font-size: 33px;
   color: #2a693d;  
 }
 
@@ -202,6 +192,10 @@ main {
 
 /*negyedik képernyő*/
 .main-fourth {
+  background-image: url("../image/pngwing.com.png"); 
+  background-size: 100vh;
+  background-position: left bottom;
+  background-repeat: no-repeat;
   display: grid;
   grid-row: 4 / span 1;
   grid-column: 1 / span 10;
@@ -255,6 +249,7 @@ main {
   background-color:#2a693d;
   margin-top: 70px;
   padding: 10px;
+  font-size: 25px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -264,17 +259,11 @@ main {
   justify-content: center;
 }
 
-.main-fourth .button-nav a {
-  color: #eefbf1;
-  font-size: 25px;
-}
-
 .main-fourth .button .button-nav:hover {
   background-color: #70b09c;
 }
 
 .main-fourth .button-nav a:hover {
-  font-size: 33px;
   color :#2a693d;  
 }
 
