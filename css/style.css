@@ -48,6 +48,13 @@ main {
   justify-content: center;
 }
 
+.main-second .pic img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+  object-position: 58.5%;
+}
+
 .main-second .button {
   grid-row: 3 / span 1;
   grid-column: 2 / span 3;
@@ -57,7 +64,7 @@ main {
 }
 
 .main-second .button .button-nav {
-  width: 280px;
+  width: 320px;
   height: 40px;
   color: rgb(245, 245, 245);
   background-color:#2a693d;
@@ -101,6 +108,7 @@ main {
 	background-color: rgba(238, 251, 241, 0.5);
   text-align: justify;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .main-second .text .vision-text h1 {
