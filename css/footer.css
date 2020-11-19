@@ -1,12 +1,5 @@
-* {
-	box-sizing: border-box;
- }
  
- body {
-	height: 100%;
-	position: relative;
- }
- .main-container {
+  .main-container {
 	min-height: 100vh;
 	overflow: hidden;
 	display: block;
