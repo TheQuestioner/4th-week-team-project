@@ -17,7 +17,7 @@
   position: absolute;
   top: 48%;
   left: 50%;
-  transform: translate (-50%, -50%);
+  transform: translate(-50%, -50%);
   color: #2a693d;
   line-height: 1.25;
 }
