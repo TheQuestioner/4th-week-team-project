@@ -10,7 +10,8 @@ body  {
 
 .form-cont {
   border-radius: 5px;
-  padding: 10px;
+  margin: auto;
+  padding: 0 10px;
 }
 
 .form-cont fieldset {
@@ -59,7 +60,7 @@ button.payment-btn {
   width: 100%;
   height: 50px;
   margin: 25px 0;
-  background-color:#5d7366;
+  background-color:#2a693d;
   color: #eefbf1;
   padding: 0;
   border: none;

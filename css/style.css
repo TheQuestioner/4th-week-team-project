@@ -348,6 +348,11 @@ main {
   grid-column: 1 / span 10;
 }
 
+.main-fifth .form-position {
+  display: flex;
+  justify-content: center;
+}
+
 
 /*hatodik képernyő*/
 .main-sixth {
