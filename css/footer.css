@@ -61,26 +61,20 @@
   text-decoration: none;
 }
 
-.hero-image .button-nav:hover {
+.main-sixth .button-nav a {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
+}
+
+.main-sixth .button-nav a:hover {
   color: rgb(238, 251, 241);
   background-color: #45a049;
   text-decoration: none;
 }
 
-.hero-image .button-nav a:hover {
+.main-sixth .button-nav a:visited {
   color: rgb(238, 251, 241);
-  background-color: #45a049;
-  text-decoration: none;
-}
-
-.hero-image .button-nav a:link {
-  color: rgb(238, 251, 241);
-  text-decoration: none;
-}
-
-.hero-image .button-nav a:visited {
-  color: rgb(238, 251, 241);
-  text-decoration: none;
+  text-decoration: none ;
 }
 
 .main-sixth .footer {
