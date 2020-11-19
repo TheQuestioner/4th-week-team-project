@@ -5,18 +5,18 @@
 	/*display: flex;*/
  }
  
- .main-sixth .box {
+.main-sixth .box {
 	 width: 70%;
 	 height: 510px;
 	 border: 1 px solid black;
 	 margin: 2.5% auto 0;
  }
 
- .main-sixth .footer {
+.main-sixth .footer {
 	width: 100%;
-	display: flex;
-	height: 150px;
+	height: 150 px;
 	background-color: #eefbf1;
-	position: relative;
-	bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
  }
