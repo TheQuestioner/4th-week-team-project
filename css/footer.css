@@ -5,8 +5,11 @@
 }
 
 header{
-	padding-top: 180px;
-	padding-bottom: 390px;
+	/*padding-top: 180px;
+	padding-bottom: 390px;*/
+	box-sizing: border-box;
+	width: 100%;
+	padding: 35px 50px 60px 50px;
 	/*background-color: #cbecd3;*/
 	background-image: url("../image/Angela/hegy-festmeny.jpg");
 	background-size: cover;
@@ -131,7 +134,7 @@ footer{
 	margin:0;
 }
 
-.footer .footer-icons{
+/*.footer .footer-icons{
 	margin-top: 35px;
 }
 
@@ -144,13 +147,13 @@ footer{
 	border-radius: 2px;
 
 	font-size: 20px;
-	color: #ffffff;
+	color:#2a693d;
 	text-align: center;
 	line-height: 35px;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
-}
+}*/
 
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
