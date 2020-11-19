@@ -356,6 +356,10 @@ main {
 
 /*hatodik képernyő*/
 .main-sixth {
+  background-image: url("../image/Angela/hegy-festmeny.jpg"); 
+  background-size: cover;
+  background-position: bottom 140px center;
+  background-repeat: no-repeat;
   height: 100%;
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;

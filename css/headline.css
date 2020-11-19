@@ -29,30 +29,31 @@
 .hero-image .button-nav {
   width: 260px;
   height: 40px;
+  color: rgb(238, 251, 241);
   background-color:#2a693d;
   padding: 10px;
-  text-align: center;
   font-size: 30px;
+  text-align: center;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   bottom: 7.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(238, 251, 241);
-  position: absolute;
 }
 
 .hero-image .button-nav:hover {
+  color: rgb(238, 251, 241);
   background-color: #45a049;
 }
-
+/*
 .hero-image .button-nav a:hover {
   color:#2a693d;  
-}
+}*/
 
 .hero-image .button-nav a:link {
   text-decoration: none;
