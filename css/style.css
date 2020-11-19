@@ -116,14 +116,16 @@ main {
 
 .main-second .text .vision-text p {
   padding: 0 20px;
-  line-height: 1.6em;
-  font-size: 20px;
+  line-height: 1.5em;
+  font-size: 19.5px;
+  margin-bottom: 40px;
 }
 
 .main-second .text .vision-text .middle-p {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  margin-top: -15px;
 }
 
 
@@ -159,8 +161,9 @@ main {
 
 .main-third .text .program p {
   padding: 0 20px;
-  line-height: 1.6em;
-  font-size: 20px;
+  line-height: 1.5em;
+  font-size: 19.5px;
+  margin-bottom: 40px;
 }
 
 .main-third .pic {
