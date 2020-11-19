@@ -19,6 +19,10 @@
   left: 50%;
   transform: translate (-50%, -50%);
   color: #2a693d;
+  line-height: 1.25;
+}
+
+.hero-text h1 {
   font-size: 50px;
 }
 
@@ -28,25 +32,18 @@
   background-color:#2a693d;
   padding: 10px;
   text-align: center;
-  font-size: 30px;;
+  font-size: 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 12%;
+  bottom: 8%;
   left: 50%;
-  transform: translate (-50%, -50%);
-  width: 280px;
-  height: 40px;
+  transform: translate(-50%, -50%);
   color: rgb(238, 251, 241);
-  padding: 10px;
-}
-
-.hero-image .button-nav a {
-  color:#eefbf1;
-  font-size: 30px;
+  position: absolute;
 }
 
 .hero-image .button-nav:hover {
