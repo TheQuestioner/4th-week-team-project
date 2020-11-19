@@ -342,7 +342,6 @@ main {
 .main-fifth {
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
-  border: 1px solid black;
 }
 
 
@@ -351,6 +350,5 @@ main {
   height: 100%;
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;
-  border: 1px solid black;
   position: relative;
 }
