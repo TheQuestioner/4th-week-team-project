@@ -75,22 +75,29 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.main-second .button-nav:hover {
-  background-color: #45a049;
-}
-
-.main-second .button-nav a:hover {
-  color: #2a693d;  
-}
-
-.main-second .button-nav a:link {
   text-decoration: none;
 }
 
-.main-second .button-nav a:visited {
-  color: rgb(245, 245, 245);
+.hero-image .button-nav:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:link {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:visited {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
 }
 
 .main-second .text {
@@ -203,22 +210,29 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.main-third .button-nav:hover {
-  background-color: #45a049;
-}
-
-.main-third .button-nav a:hover {
-  color: #2a693d;  
-}
-
-.main-third .button-nav a:link {
   text-decoration: none;
 }
 
-.main-third .button-nav a:visited {
-  color: rgb(245, 245, 245);
+.hero-image .button-nav:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:link {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:visited {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
 }
 
 
@@ -323,22 +337,29 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.main-fourth .button-nav:hover {
-  background-color: #45a049;
-}
-
-.main-fourth .button-nav a:hover {
-  color :#2a693d;  
-}
-
-.main-fourth .button-nav a:link {
   text-decoration: none;
 }
 
-.main-fourth .button-nav a:visited {
-  color: rgb(245, 245, 245);
+.hero-image .button-nav:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:link {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:visited {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
 }
 
 

@@ -71,10 +71,29 @@ button.payment-btn {
   justify-content: center;
   font-size: 25px;
   font-weight: bolder;
+  text-decoration: none;
 }
 
-button.payment-btn:hover {
+.hero-image .button-nav:hover {
+  color: rgb(238, 251, 241);
   background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:hover {
+  color: rgb(238, 251, 241);
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:link {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
+}
+
+.hero-image .button-nav a:visited {
+  color: rgb(238, 251, 241);
+  text-decoration: none;
 }
 
 /*.form-cont img {
