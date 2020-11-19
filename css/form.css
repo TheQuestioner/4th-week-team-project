@@ -30,7 +30,7 @@ body  {
   font-weight: bolder;
 }
 
-.form-cont input[type=text], [type=email], [type=checkbox] select {
+input[type=text], [type=email], [type=checkbox] select {
   width: 75%;
   margin-top: 10px;
   margin-left: 15px;
@@ -41,7 +41,7 @@ body  {
 }
 
 .form-cont p {
-  margin: 25px;
+  margin: 20px;
 }
 
 .form-cont p.fill {

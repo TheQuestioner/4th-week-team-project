@@ -20,6 +20,7 @@ main {
 
 /*első képernyő*/
 .main-first {
+  height: 100%;
   grid-row: 1 / span 1;
   grid-column: 1 / span 10;
 }
@@ -27,7 +28,7 @@ main {
 
 /*második képernyő*/
 .main-second {
-  height: 100vh;
+  height: 100%;
   background-image: url("../image/hegy-festmeny-lefele.jpg"); 
   background-size: cover;
   background-position: center;
@@ -130,7 +131,7 @@ main {
 
 /*harmadik képernyő*/
 .main-third {
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-row: 3 / span 1;
   grid-column: 1 / span 10;
@@ -223,7 +224,7 @@ main {
 
 /*negyedik képernyő*/
 .main-fourth {
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-row: 4 / span 1;
   grid-column: 1 / span 10;
@@ -343,7 +344,7 @@ main {
 
 /*ötödik képernyő*/
 .main-fifth {
-  height: 100vh;
+  height: 100%;
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
@@ -352,7 +353,7 @@ main {
 
 /*hatodik képernyő*/
 .main-sixth {
-  height: 100vh;
+  height: 100%;
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;
   border: 1px solid black;
