@@ -1,7 +1,9 @@
 .button-nav {
-  width: 300px;
+  width: 280px;
   height: 40px;
-  background-color:#2a693d;
+  color: rgb(238, 251, 241);
+  background-color: #2a693d;
+  font-size: 30px;
   padding: 10px;
   text-align: center;
   border: none;
@@ -12,19 +14,13 @@
   justify-content: center;
 }
 
-.button-nav a {
-  color:#eefbf1;
-  font-size: 30px;
-}
-
 .button-nav:hover {
-  background-color:#70b09c;
+  background-color: #70b09c;
 }
 
 .button-nav a:hover {
   font-size:33px;
   color:#2a693d;
-  
 }
 
 .button-nav a:link {
