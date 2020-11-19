@@ -5,7 +5,8 @@
  
 .main-sixth .box {
 	 width: 70%;
-	 height: 510px;
+	 height: 545px;
+	 padding: 20px;
 	 border: 1px solid black;
 	 box-sizing: border-box;
 	 margin: 2.5% auto 0;
@@ -25,7 +26,7 @@
 }
 
 .main-sixth .one-more {
-	margin-top: 250px;
+	margin-top: 300px;
 	display: flex;
 	justify-content: center;
 }
