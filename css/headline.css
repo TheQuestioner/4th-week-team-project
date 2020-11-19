@@ -29,7 +29,6 @@
 .hero-image .button-nav {
   width: 260px;
   height: 40px;
-  color: rgb(238, 251, 241);
   background-color:#2a693d;
   padding: 10px;
   font-size: 30px;
@@ -44,12 +43,10 @@
   bottom: 7.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-decoration: none;
 }
 
-.hero-image .button-nav:hover {
+.hero-image .button-nav a {
   color: rgb(238, 251, 241);
-  background-color: #45a049;
   text-decoration: none;
 }
 
@@ -58,13 +55,13 @@
   background-color: #45a049;
   text-decoration: none;
 }
-
+/*
 .hero-image .button-nav a:link {
   color: rgb(238, 251, 241);
   text-decoration: none;
-}
+}*/
 
 .hero-image .button-nav a:visited {
   color: rgb(238, 251, 241);
-  text-decoration: none;
+  text-decoration: none ;
 }
