@@ -22,7 +22,7 @@
 }
 
 .hero-image .button-nav {
-  width: 300px;
+  width: 280px;
   height: 40px;
   background-color:#2a693d;
   padding: 10px;
@@ -37,6 +37,10 @@
   bottom: 12%;
   left: 50%;
   transform: translate (-50%, -50%);
+  width: 280px;
+  height: 40px;
+  color: rgb(238, 251, 241);
+  padding: 10px;
 }
 
 .hero-image .button-nav a {
