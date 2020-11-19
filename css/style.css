@@ -61,7 +61,7 @@ main {
   justify-content: center;
 }
 
-.main-second .button .button-nav {
+.main-second .button-nav {
   width: 320px;
   height: 40px;
   color: rgb(245, 245, 245);
@@ -77,7 +77,7 @@ main {
   justify-content: center;
 }
 
-.main-second .button .button-nav:hover {
+.main-second .button-nav:hover {
   background-color: #45a049;
 }
 
@@ -85,11 +85,11 @@ main {
   color: #2a693d;  
 }
 
-.main-second .button .button-nav a:link {
+.main-second .button-nav a:link {
   text-decoration: none;
 }
 
-.main-second .button .button-nav a:visited {
+.main-second .button-nav a:visited {
   color: rgb(245, 245, 245);
 }
 
@@ -105,7 +105,7 @@ main {
   height: 100%;
 	background-color: rgba(238, 251, 241, 0.5);
   text-align: justify;
-  border: 1px solid black;
+  border: 1px solid #70b09c;
   box-sizing: border-box;
 }
 
@@ -116,14 +116,16 @@ main {
 
 .main-second .text .vision-text p {
   padding: 0 20px;
-  line-height: 1.6em;
-  font-size: 20px;
+  line-height: 1.5em;
+  font-size: 19.5px;
+  margin-bottom: 40px;
 }
 
 .main-second .text .vision-text .middle-p {
   font-size: 30px;
   display: flex;
   justify-content: center;
+  margin-top: -15px;
 }
 
 
@@ -148,7 +150,7 @@ main {
   height: 100%;
   background-color: rgba(238, 251, 241, 0.5);
   text-align: justify;
-  border: 1px solid black;
+  border: 1px solid #70b09c;
   box-sizing: border-box;
 }
 
@@ -159,8 +161,9 @@ main {
 
 .main-third .text .program p {
   padding: 0 20px;
-  line-height: 1.6em;
-  font-size: 20px;
+  line-height: 1.5em;
+  font-size: 19.5px;
+  margin-bottom: 40px;
 }
 
 .main-third .pic {
@@ -186,7 +189,7 @@ main {
   justify-content: center;
 }
 
-.main-third .button .button-nav {
+.main-third .button-nav {
   width: 280px;
   height: 40px;
   color: rgb(245, 245, 245);
@@ -202,7 +205,7 @@ main {
   justify-content: center;
 }
 
-.main-third .button .button-nav:hover {
+.main-third .button-nav:hover {
   background-color: #45a049;
 }
 
@@ -210,11 +213,11 @@ main {
   color: #2a693d;  
 }
 
-.main-third .button .button-nav a:link {
+.main-third .button-nav a:link {
   text-decoration: none;
 }
 
-.main-third .button .button-nav a:visited {
+.main-third .button-nav a:visited {
   color: rgb(245, 245, 245);
 }
 
@@ -254,7 +257,7 @@ main {
 
 .main-fourth .left .text {
   margin-top: 40px;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .main-fourth .middle .pic {
@@ -270,7 +273,7 @@ main {
 
 .main-fourth .middle .text {
   margin-top: 40px;
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .main-fourth .right {
@@ -290,21 +293,22 @@ main {
 
 .main-fourth .right .text {
   margin-top: 40px;
+  font-size: 14.5px;
 }
 
 .main-fourth .text {
   width: 300px;
   height: 100px;
+  padding: 8px;
   font-size: 20px;
   text-align: justify;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #70b09c;
   box-sizing: border-box;
 }
 
-.main-fourth .button .button-nav {
+.main-fourth .button-nav {
   width: 260px;
   height: 40px;
   color: rgb(245, 245, 245);
@@ -321,7 +325,7 @@ main {
   justify-content: center;
 }
 
-.main-fourth .button .button-nav:hover {
+.main-fourth .button-nav:hover {
   background-color: #45a049;
 }
 
@@ -329,11 +333,11 @@ main {
   color :#2a693d;  
 }
 
-.main-fourth .button .button-nav a:link {
+.main-fourth .button-nav a:link {
   text-decoration: none;
 }
 
-.main-fourth .button .button-nav a:visited {
+.main-fourth .button-nav a:visited {
   color: rgb(245, 245, 245);
 }
 
@@ -342,7 +346,11 @@ main {
 .main-fifth {
   grid-row: 5 / span 1;
   grid-column: 1 / span 10;
-  border: 1px solid black;
+}
+
+.main-fifth .form-position {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -351,6 +359,5 @@ main {
   height: 100%;
   grid-row: 6 / span 1;
   grid-column: 1 / span 10;
-  border: 1px solid black;
   position: relative;
 }
