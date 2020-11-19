@@ -1,31 +1,57 @@
-
 body {
   margin: 0;
   padding: 0;
 }
 
-div.gallery {
-  width: 33,3 vw;
-  height: 33,3 vh;
-  box-sizing: border-box;
-}
+.gallery-container {
+   width: 33.3vw;
+   height: 33.3vh;
+   box-sizing: border-box;
+   display:flex;
+  }
 
-div.gallery img {
+  .gallery-container .image {
+    width: 240px;
+    height: 180px;
+  }
 
-  width: 20%;
-  height: auto;
-  margin: 5px;
+  .gallery-container .image img {
+    width: 100%;
+    height: 100%;
+  margin: 10px;
   border: 1px solid #ccc;
-  object-fit: contain;
- }
+  object-fit: cover;
+   }
 
-
-div.gallery:hover {
-  border: 1px solid #777;
+  .gallery-container .image img:hover {
+  opacity:70%;
 }
-
 
 div.desc {
+  margin: 20px;
   padding: 15px;
   text-align: center;
 }
+/*
+.gallery-container {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 10;
+  box-sizing: border-box;
+}
+
+
+Volt egy konténer:
+.gallery-container {
+  width:33.3 vw;
+   height: 33.3 vh;
+   box-sizing: border-box;
+  }
+
+  Aztán volt az img formázás
+
+  .img-container img {
+    width:100%;
+    height:100%;
+    object-fit: cover vagy contain;
+  }
+*/
