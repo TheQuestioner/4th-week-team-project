@@ -225,10 +225,6 @@ main {
 /*negyedik képernyő*/
 .main-fourth {
   height: 100vh;
-/*  background-image: url("../image/pngwing.com.png"); 
-  background-size: 100vh;
-  background-position: left bottom;
-  background-repeat: no-repeat; */
   display: grid;
   grid-row: 4 / span 1;
   grid-column: 1 / span 10;
@@ -262,7 +258,7 @@ main {
 
 .main-fourth .left .text {
   margin-top: 40px;
-  font-size: 14.5px;
+  font-size: 15px;
 }
 
 .main-fourth .middle .pic {
@@ -278,6 +274,7 @@ main {
 
 .main-fourth .middle .text {
   margin-top: 40px;
+  font-size: 15px;
 }
 
 .main-fourth .right {
